@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 2 (owner), Member 6 |
+| **Assigned** | Basmala Mohamed (owner), Ahmed Elbrolosy |
 | **Start → Deadline** | Wed Nov 4 → **Fri Nov 6** |
 | **Deliverable** | Enclosed chassis |
 

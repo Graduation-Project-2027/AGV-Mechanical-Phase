@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 5 (owner), Member 4 |
+| **Assigned** | Nada Ali (owner), Youssef Wahba |
 | **Start → Deadline** | Thu Oct 1 → **Thu Oct 8** |
 | **Deliverable** | Supplier list (drive components) with datasheets |
 

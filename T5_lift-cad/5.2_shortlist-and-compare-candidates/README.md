@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 8 (owner), Member 7 |
+| **Assigned** | Nadine Elframawy (owner), Saleh Nassar |
 | **Start → Deadline** | Sat Oct 3 → **Thu Oct 8** |
 | **Deliverable** | Comparison matrix with scores + recommended model |
 

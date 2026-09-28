@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 3 (owner), Member 4 |
+| **Assigned** | Ahmed Alattar (owner), Youssef Wahba |
 | **Start → Deadline** | Tue Oct 13 → **Thu Oct 15** |
 | **Deliverable** | CG / tip-over check note + recommendation (keep 3-point or add rear caster) |
 

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 6 (owner) |
+| **Assigned** | Ahmed Elbrolosy (owner) |
 | **Start → Deadline** | Wed Sep 30 → **Thu Oct 8** |
 | **Deliverable** | Supplier list (aluminum materials) with prices per meter / per sheet |
 

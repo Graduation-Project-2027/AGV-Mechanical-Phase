@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 10 (owner), Member 9 |
+| **Assigned** | Omar Farahat (owner), Basant Salah |
 | **Start → Deadline** | Thu Oct 8 → **Thu Oct 15** |
 | **Deliverable** | Process plan (part → process → workshop) |
 

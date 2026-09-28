@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 3 (owner), Member 4, Member 1 |
+| **Assigned** | Ahmed Alattar (owner), Youssef Wahba, Yasmin Mohamed |
 | **Start → Deadline** | Sun Nov 1 → **Thu Nov 5** |
 | **Deliverable** | Rolling chassis |
 

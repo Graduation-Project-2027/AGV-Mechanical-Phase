@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 9 (owner), Member 8 |
+| **Assigned** | Basant Salah (owner), Nadine Elframawy |
 | **Start → Deadline** | Tue Oct 13 → **Mon Oct 19** |
 | **Deliverable** | Lift drawing pack (PDF + DXF) + final lift BOM |
 

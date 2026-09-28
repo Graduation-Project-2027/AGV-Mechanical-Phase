@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 2 (owner), Member 1 |
+| **Assigned** | Basmala Mohamed (owner), Yasmin Mohamed |
 | **Start → Deadline** | Thu Oct 15 → **Mon Oct 19** |
 | **Deliverable** | Frozen assembly + drawing pack (PDF) + DXFs + BOM |
 

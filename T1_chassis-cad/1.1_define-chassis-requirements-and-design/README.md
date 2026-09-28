@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 1 (owner), Member 2, Member 7 |
+| **Assigned** | Yasmin Mohamed (owner), Basmala Mohamed, Saleh Nassar |
 | **Start → Deadline** | Mon Sep 28 → **Wed Sep 30** |
 | **Deliverable** | One-page requirements sheet + empty top-level SolidWorks assembly with reference planes |
 

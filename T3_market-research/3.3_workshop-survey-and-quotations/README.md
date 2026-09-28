@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 6 (owner), Member 10 |
+| **Assigned** | Ahmed Elbrolosy (owner), Omar Farahat |
 | **Start → Deadline** | Sat Oct 3 → **Mon Oct 12** |
 | **Deliverable** | Workshop comparison (process, price, lead time, contact) |
 

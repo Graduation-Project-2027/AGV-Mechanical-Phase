@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 1 (owner), Member 2 |
+| **Assigned** | Yasmin Mohamed (owner), Basmala Mohamed |
 | **Start → Deadline** | Tue Oct 13 → **Thu Oct 15** |
 | **Deliverable** | FEA summary slide (stress, SF, deflection) + any frame changes |
 

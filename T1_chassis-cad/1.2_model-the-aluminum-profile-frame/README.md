@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 1 (owner) |
+| **Assigned** | Yasmin Mohamed (owner) |
 | **Start → Deadline** | Wed Sep 30 → **Thu Oct 8** |
 | **Deliverable** | Frame sub-assembly (.SLDASM) + preliminary cut list (profile, length, qty) |
 

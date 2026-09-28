@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 7 (owner), Member 1 |
+| **Assigned** | Saleh Nassar (owner), Yasmin Mohamed |
 | **Start → Deadline** | Sun Nov 8 → **Mon Nov 9** |
 | **Deliverable** | Mechanical phase test report (PDF) |
 

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 8 (owner), Member 10, Member 9 |
+| **Assigned** | Nadine Elframawy (owner), Omar Farahat, Basant Salah |
 | **Start → Deadline** | Sat Nov 7 → **Mon Nov 9** |
 | **Deliverable** | Lift test sheet with measured results + video |
 

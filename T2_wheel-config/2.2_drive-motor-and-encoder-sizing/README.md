@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 4 (owner) |
+| **Assigned** | Youssef Wahba (owner) |
 | **Start → Deadline** | Tue Sep 29 → **Sun Oct 4** |
 | **Deliverable** | Motor + encoder + wheel specification sheet (input for 3.1) |
 

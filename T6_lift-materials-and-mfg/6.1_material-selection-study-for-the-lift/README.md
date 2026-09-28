@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 9 (owner), Member 10 |
+| **Assigned** | Basant Salah (owner), Omar Farahat |
 | **Start → Deadline** | Mon Oct 5 → **Mon Oct 12** |
 | **Deliverable** | Material table per part with justification |
 

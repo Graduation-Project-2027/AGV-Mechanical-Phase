@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 5 (owner), Member 6 |
+| **Assigned** | Nada Ali (owner), Ahmed Elbrolosy |
 | **Start → Deadline** | Tue Oct 13 → **Thu Oct 15** |
 | **Deliverable** | Approved final pricing table + total budget |
 

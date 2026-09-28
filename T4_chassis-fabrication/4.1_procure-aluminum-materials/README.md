@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 6 (owner), Member 3 |
+| **Assigned** | Ahmed Elbrolosy (owner), Ahmed Alattar |
 | **Start → Deadline** | Tue Oct 20 → **Thu Oct 22** |
 | **Deliverable** | All chassis materials received + receipts |
 

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 7 (owner), Member 8 |
+| **Assigned** | Saleh Nassar (owner), Nadine Elframawy |
 | **Start → Deadline** | Mon Sep 28 → **Mon Oct 5** |
 | **Deliverable** | Long list of 5+ candidate models with links and source |
 

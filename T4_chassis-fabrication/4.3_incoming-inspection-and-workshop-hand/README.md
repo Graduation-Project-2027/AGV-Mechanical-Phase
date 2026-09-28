@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 2 (owner), Member 3 |
+| **Assigned** | Basmala Mohamed (owner), Ahmed Alattar |
 | **Start → Deadline** | Sat Oct 24 → **Mon Oct 26** |
 | **Deliverable** | Signed-off checklist; workshops have material + drawings |
 

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 6 (owner), Member 10, Member 5 |
+| **Assigned** | Ahmed Elbrolosy (owner), Omar Farahat, Nada Ali |
 | **Start → Deadline** | Fri Oct 16 → **Mon Oct 19** |
 | **Deliverable** | Confirmed workshop list with agreed prices and delivery dates |
 

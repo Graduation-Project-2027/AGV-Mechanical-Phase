@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 3 (owner), Member 4 |
+| **Assigned** | Ahmed Alattar (owner), Youssef Wahba |
 | **Start → Deadline** | Sat Oct 3 → **Mon Oct 12** |
 | **Deliverable** | Mount parts + updated assembly with candidate components |
 

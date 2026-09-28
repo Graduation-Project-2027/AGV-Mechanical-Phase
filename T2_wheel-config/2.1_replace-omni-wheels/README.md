@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 3 (owner) |
+| **Assigned** | Ahmed Alattar (owner) |
 | **Start → Deadline** | Mon Sep 28 → **Thu Oct 1** |
 | **Deliverable** | Updated wheel layout in the chassis assembly + track width & wheelbase values |
 

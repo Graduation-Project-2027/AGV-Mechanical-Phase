@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 2 (owner) |
+| **Assigned** | Basmala Mohamed (owner) |
 | **Start → Deadline** | Mon Oct 5 → **Mon Oct 12** |
 | **Deliverable** | Enclosure parts (sheet metal) + flat-pattern DXFs (draft) |
 

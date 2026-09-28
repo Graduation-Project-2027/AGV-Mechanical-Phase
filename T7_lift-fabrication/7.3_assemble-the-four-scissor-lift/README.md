@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 7 (owner), Member 8 |
+| **Assigned** | Saleh Nassar (owner), Nadine Elframawy |
 | **Start → Deadline** | Mon Nov 2 → **Thu Nov 5** |
 | **Deliverable** | Assembled lift (bench) |
 

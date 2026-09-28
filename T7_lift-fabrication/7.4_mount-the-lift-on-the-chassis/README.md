@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 7 (owner), Member 8, Member 9 |
+| **Assigned** | Saleh Nassar (owner), Nadine Elframawy, Basant Salah |
 | **Start → Deadline** | Thu Nov 5 → **Sat Nov 7** |
 | **Deliverable** | Lift mounted on chassis |
 

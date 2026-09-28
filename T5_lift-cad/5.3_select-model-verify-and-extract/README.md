@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 7 (owner), Member 8 |
+| **Assigned** | Saleh Nassar (owner), Nadine Elframawy |
 | **Start → Deadline** | Thu Oct 8 → **Mon Oct 12** |
 | **Deliverable** | Verified lift model + key-dimension sheet |
 

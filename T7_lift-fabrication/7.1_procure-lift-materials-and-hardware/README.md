@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 9 (owner), Member 10 |
+| **Assigned** | Basant Salah (owner), Omar Farahat |
 | **Start → Deadline** | Tue Oct 20 → **Mon Oct 26** |
 | **Deliverable** | All lift materials and hardware received |
 

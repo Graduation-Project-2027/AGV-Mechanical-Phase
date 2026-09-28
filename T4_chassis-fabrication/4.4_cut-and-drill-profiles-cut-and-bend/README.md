@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 1 (owner), Member 2 |
+| **Assigned** | Yasmin Mohamed (owner), Basmala Mohamed |
 | **Start → Deadline** | Tue Oct 27 → **Sun Nov 1** |
 | **Deliverable** | All chassis parts manufactured and checked |
 

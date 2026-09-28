@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Member 4 (owner), Member 5, Member 3 |
+| **Assigned** | Youssef Wahba (owner), Nada Ali, Ahmed Alattar |
 | **Start → Deadline** | Fri Nov 6 → **Mon Nov 9** |
 | **Deliverable** | Chassis test sheet with measured results + photos |
 

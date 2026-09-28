@@ -1,0 +1,8 @@
+# SolidWorks temporary / lock files
+~$*
+*.SLDBAK
+*.swbak
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -9,8 +9,8 @@
 - README: final material & manufacturing decisions
 
 ## Task folders
-| Code | Task | Assigned | Deadline |
-|---|---|---|---|
-| 6.1 | [Material selection study for the lift](6.1_material-selection-study-for-the-lift/) | Basant Salah (owner), Omar Farahat | Mon Oct 12 |
-| 6.2 | [Manufacturing method per lift part](6.2_manufacturing-method-per-lift-part/) | Omar Farahat (owner), Basant Salah | Thu Oct 15 |
-| 6.3 | [Finalize materials & lift manufacturing drawings](6.3_finalize-materials-and-lift/) | Basant Salah (owner), Nadine Elframawy | Mon Oct 19 |
+| Code | Task | Deadline |
+|---|---|---|
+| 6.1 | [Material selection study for the lift](6.1_material-selection-study-for-the-lift/) | Mon Oct 12 |
+| 6.2 | [Manufacturing method per lift part](6.2_manufacturing-method-per-lift-part/) | Thu Oct 15 |
+| 6.3 | [Finalize materials & lift manufacturing drawings](6.3_finalize-materials-and-lift/) | Mon Oct 19 |

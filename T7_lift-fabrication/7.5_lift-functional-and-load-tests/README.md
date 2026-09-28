@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Nadine Elframawy (owner), Omar Farahat, Basant Salah |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Sat Nov 7 → **Mon Nov 9** |
 | **Deliverable** | Lift test sheet with measured results + video |
 

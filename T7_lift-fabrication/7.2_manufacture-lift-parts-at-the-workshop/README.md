@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Omar Farahat (owner), Basant Salah |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Tue Oct 27 → **Mon Nov 2** |
 | **Deliverable** | All lift parts manufactured and checked |
 

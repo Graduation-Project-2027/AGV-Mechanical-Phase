@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Youssef Wahba (owner), Nada Ali, Ahmed Alattar |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Fri Nov 6 → **Mon Nov 9** |
 | **Deliverable** | Chassis test sheet with measured results + photos |
 

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Ahmed Alattar (owner), Youssef Wahba, Yasmin Mohamed |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Sun Nov 1 → **Thu Nov 5** |
 | **Deliverable** | Rolling chassis |
 

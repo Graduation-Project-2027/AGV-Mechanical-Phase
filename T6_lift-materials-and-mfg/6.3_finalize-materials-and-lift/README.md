@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Basant Salah (owner), Nadine Elframawy |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Tue Oct 13 → **Mon Oct 19** |
 | **Deliverable** | Lift drawing pack (PDF + DXF) + final lift BOM |
 

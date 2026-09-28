@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Nada Ali (owner), Ahmed Elbrolosy |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Thu Oct 8 → **Mon Oct 12** |
 | **Deliverable** | Pricing table v1 (shared spreadsheet) |
 

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Ahmed Alattar (owner), Youssef Wahba |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Sat Oct 3 → **Mon Oct 12** |
 | **Deliverable** | Mount parts + updated assembly with candidate components |
 

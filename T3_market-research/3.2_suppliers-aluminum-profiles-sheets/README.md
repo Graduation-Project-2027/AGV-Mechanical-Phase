@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Ahmed Elbrolosy (owner) |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Wed Sep 30 → **Thu Oct 8** |
 | **Deliverable** | Supplier list (aluminum materials) with prices per meter / per sheet |
 

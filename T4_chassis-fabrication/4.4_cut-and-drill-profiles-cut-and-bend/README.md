@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Yasmin Mohamed (owner), Basmala Mohamed |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Tue Oct 27 → **Sun Nov 1** |
 | **Deliverable** | All chassis parts manufactured and checked |
 

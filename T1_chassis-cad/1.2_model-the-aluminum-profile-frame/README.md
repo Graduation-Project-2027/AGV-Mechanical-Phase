@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Yasmin Mohamed (owner) |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Wed Sep 30 → **Thu Oct 8** |
 | **Deliverable** | Frame sub-assembly (.SLDASM) + preliminary cut list (profile, length, qty) |
 

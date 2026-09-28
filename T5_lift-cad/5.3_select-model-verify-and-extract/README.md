@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Saleh Nassar (owner), Nadine Elframawy |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Thu Oct 8 → **Mon Oct 12** |
 | **Deliverable** | Verified lift model + key-dimension sheet |
 

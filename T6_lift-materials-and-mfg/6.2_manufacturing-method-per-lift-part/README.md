@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Omar Farahat (owner), Basant Salah |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Thu Oct 8 → **Thu Oct 15** |
 | **Deliverable** | Process plan (part → process → workshop) |
 

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Basmala Mohamed (owner), Yasmin Mohamed |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Thu Oct 15 → **Mon Oct 19** |
 | **Deliverable** | Frozen assembly + drawing pack (PDF) + DXFs + BOM |
 

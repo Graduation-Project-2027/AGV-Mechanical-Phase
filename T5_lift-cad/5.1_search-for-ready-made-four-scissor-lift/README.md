@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Saleh Nassar (owner), Nadine Elframawy |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Mon Sep 28 → **Mon Oct 5** |
 | **Deliverable** | Long list of 5+ candidate models with links and source |
 

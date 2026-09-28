@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Basmala Mohamed (owner), Ahmed Alattar |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Sat Oct 24 → **Mon Oct 26** |
 | **Deliverable** | Signed-off checklist; workshops have material + drawings |
 

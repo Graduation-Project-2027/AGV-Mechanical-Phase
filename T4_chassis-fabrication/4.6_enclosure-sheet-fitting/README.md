@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Basmala Mohamed (owner), Ahmed Elbrolosy |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Wed Nov 4 → **Fri Nov 6** |
 | **Deliverable** | Enclosed chassis |
 

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Ahmed Alattar (owner), Youssef Wahba |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Tue Oct 13 → **Thu Oct 15** |
 | **Deliverable** | CG / tip-over check note + recommendation (keep 3-point or add rear caster) |
 

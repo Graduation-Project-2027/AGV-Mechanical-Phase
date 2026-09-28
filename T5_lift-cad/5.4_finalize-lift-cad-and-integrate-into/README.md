@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Nadine Elframawy (owner), Saleh Nassar, Yasmin Mohamed |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Tue Oct 13 → **Thu Oct 15** |
 | **Deliverable** | Final lift sub-assembly integrated in the chassis assembly |
 

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Youssef Wahba (owner) |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Tue Sep 29 → **Sun Oct 4** |
 | **Deliverable** | Motor + encoder + wheel specification sheet (input for 3.1) |
 

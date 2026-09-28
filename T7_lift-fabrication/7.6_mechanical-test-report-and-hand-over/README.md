@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Saleh Nassar (owner), Yasmin Mohamed |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Sun Nov 8 → **Mon Nov 9** |
 | **Deliverable** | Mechanical phase test report (PDF) |
 

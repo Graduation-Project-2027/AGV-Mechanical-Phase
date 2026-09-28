@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Saleh Nassar (owner), Nadine Elframawy |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Mon Nov 2 → **Thu Nov 5** |
 | **Deliverable** | Assembled lift (bench) |
 

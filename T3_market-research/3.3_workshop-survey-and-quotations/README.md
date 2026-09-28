@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Ahmed Elbrolosy (owner), Omar Farahat |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Sat Oct 3 → **Mon Oct 12** |
 | **Deliverable** | Workshop comparison (process, price, lead time, contact) |
 

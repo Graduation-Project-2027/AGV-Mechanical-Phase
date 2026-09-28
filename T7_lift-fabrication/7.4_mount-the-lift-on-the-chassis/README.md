@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Saleh Nassar (owner), Nadine Elframawy, Basant Salah |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Thu Nov 5 → **Sat Nov 7** |
 | **Deliverable** | Lift mounted on chassis |
 

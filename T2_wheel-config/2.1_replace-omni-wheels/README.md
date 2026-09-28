@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Ahmed Alattar (owner) |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Mon Sep 28 → **Thu Oct 1** |
 | **Deliverable** | Updated wheel layout in the chassis assembly + track width & wheelbase values |
 

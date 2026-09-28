@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Basant Salah (owner), Omar Farahat |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Mon Oct 5 → **Mon Oct 12** |
 | **Deliverable** | Material table per part with justification |
 

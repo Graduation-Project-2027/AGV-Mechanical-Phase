@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Basmala Mohamed (owner) |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Mon Oct 5 → **Mon Oct 12** |
 | **Deliverable** | Enclosure parts (sheet metal) + flat-pattern DXFs (draft) |
 

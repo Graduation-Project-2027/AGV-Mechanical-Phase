@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Yasmin Mohamed (owner), Basmala Mohamed |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Tue Oct 13 → **Thu Oct 15** |
 | **Deliverable** | FEA summary slide (stress, SF, deflection) + any frame changes |
 

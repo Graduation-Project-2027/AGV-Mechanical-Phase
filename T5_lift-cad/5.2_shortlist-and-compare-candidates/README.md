@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Nadine Elframawy (owner), Saleh Nassar |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Sat Oct 3 → **Thu Oct 8** |
 | **Deliverable** | Comparison matrix with scores + recommended model |
 

@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Ahmed Elbrolosy (owner), Ahmed Alattar |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Tue Oct 20 → **Thu Oct 22** |
 | **Deliverable** | All chassis materials received + receipts |
 

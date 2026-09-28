@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Yasmin Mohamed (owner), Basmala Mohamed, Saleh Nassar |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Mon Sep 28 → **Wed Sep 30** |
 | **Deliverable** | One-page requirements sheet + empty top-level SolidWorks assembly with reference planes |
 

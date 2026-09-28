@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Assigned** | Nada Ali (owner), Youssef Wahba |
+| **Assigned** | See the [task portal](https://salehnassar.github.io/agv-task-portal/) |
 | **Start → Deadline** | Thu Oct 1 → **Thu Oct 8** |
 | **Deliverable** | Supplier list (drive components) with datasheets |
 

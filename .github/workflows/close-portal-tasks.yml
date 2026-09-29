@@ -39,13 +39,13 @@ jobs:
 
       - name: Check out this repository (for the script)
         if: env.PORTAL_TOKEN != ''
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           sparse-checkout: .github/scripts
 
       - name: Check out the task portal
         if: env.PORTAL_TOKEN != ''
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: ${{ env.PORTAL_REPO }}
           token: ${{ secrets.PORTAL_TOKEN }}

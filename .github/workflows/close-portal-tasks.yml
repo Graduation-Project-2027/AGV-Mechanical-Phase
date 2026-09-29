@@ -1,0 +1,77 @@
+# Moves tasks on the team task portal (salehNassar/agv-task-portal) to "Done"
+# when a pushed commit message contains "Closes Task N" (also: Close/Closed/Fixes/
+# Resolves Task N, "Closes Tasks 1, 3 and 4", "Closes Task #2").
+#
+# One-time setup (team leader):
+#   1. Create a fine-grained personal access token: Resource owner = salehNassar,
+#      Repository access = only "agv-task-portal", Permissions > Contents = Read and write.
+#   2. In THIS repository: Settings > Secrets and variables > Actions > New repository secret
+#      Name: PORTAL_TOKEN   Value: the token.
+#      (To use the same automation in other org repos, add it as an organization secret and
+#       copy this workflow + .github/scripts/close_portal_tasks.py into those repos.)
+# Without the secret the workflow just prints a notice and does nothing.
+
+name: Close portal tasks from commits
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: portal-board-update
+  cancel-in-progress: false
+
+jobs:
+  close-tasks:
+    # contains() is case-insensitive, so this matches "Task", "task", "TASK".
+    if: contains(join(github.event.commits.*.message, ' '), 'task')
+    runs-on: ubuntu-latest
+    env:
+      PORTAL_TOKEN: ${{ secrets.PORTAL_TOKEN }}
+      PORTAL_REPO: salehNassar/agv-task-portal
+    steps:
+      - name: Check setup
+        if: env.PORTAL_TOKEN == ''
+        run: echo "::notice::PORTAL_TOKEN secret is not set, so the task board was not updated. See the setup steps at the top of this workflow."
+
+      - name: Check out this repository (for the script)
+        if: env.PORTAL_TOKEN != ''
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/scripts
+
+      - name: Check out the task portal
+        if: env.PORTAL_TOKEN != ''
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.PORTAL_REPO }}
+          token: ${{ secrets.PORTAL_TOKEN }}
+          path: portal
+
+      - name: Mark closed tasks as Done and publish
+        if: env.PORTAL_TOKEN != ''
+        env:
+          COMMITS_JSON: ${{ toJSON(github.event.commits) }}
+          PORTAL_FILE: portal/data.js
+        run: |
+          git -C portal config user.name "task-board-bot"
+          git -C portal config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # If someone else updated the board at the same moment, start again from the latest version.
+          for attempt in 1 2 3; do
+            GITHUB_OUTPUT=out.txt python3 .github/scripts/close_portal_tasks.py
+            if ! grep -q '^changed=true' out.txt; then echo "Board already up to date."; exit 0; fi
+            TASKS=$(sed -n 's/^tasks=//p' out.txt)
+            git -C portal add data.js
+            git -C portal commit -q -m "Board: Task ${TASKS} done (from ${GITHUB_REPOSITORY}@${GITHUB_SHA::7})"
+            if git -C portal push -q; then echo "Board updated: Task ${TASKS} -> Done"; exit 0; fi
+            echo "Push rejected (attempt $attempt); retrying on the latest board..."
+            BRANCH=$(git -C portal rev-parse --abbrev-ref HEAD)
+            git -C portal fetch -q origin "$BRANCH"
+            git -C portal reset -q --hard "origin/$BRANCH"
+            rm -f out.txt
+          done
+          echo "::error::Could not update the task board after 3 attempts."
+          exit 1

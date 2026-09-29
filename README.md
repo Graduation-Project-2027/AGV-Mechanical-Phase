@@ -1,67 +1,38 @@
-# AGV Mechanical Phase (GP2)
+# AGV Graduation Project · Part 1: Mechanical & Cross-functional Prep
 
-All work for the mechanical phase of the AGV: new aluminum-profile chassis, differential drive wheels, and the four-scissor lift (Sep 28 – Nov 9, 2026).
+Mechanical design, manufacturing and the mechanical preparation for the electrical and software teams (CAD, URDF, mounting points). Part 1 runs **Sep 28 – Nov 15, 2026**. Electrical (Part 2) and Software (Part 3) will be added later.
 
-📋 **Task portal (tasks, deadlines, timeline):** https://salehnassar.github.io/agv-task-portal/
+📋 **Task board (tasks, deadlines, timeline):** https://salehnassar.github.io/agv-task-portal/
 
-## ⚠️ Rule: document everything the same day
+## Rules
 
-1. Every task already has a folder here (see the table below). Open **your** task folder.
-2. **Add file → Upload files**, drag your files in, **Commit changes**. Web upload max 25 MB per file; bigger CAD → GitHub Desktop (max 100 MB) or a STEP export.
-3. Edit the task's `README.md` (pencil icon): log what you did, key numbers and decisions, open issues.
-4. Commit message format: `[task code] what you did`, e.g. `[1.2] Frame v2: added cross-members for lift base`.
-5. Send the folder link to the team leader so the task is marked as documented in the portal.
+- **Phases run in order: A → B → C → D.** A phase starts only when the previous phase is 100% complete. Tasks inside a phase run in parallel.
+- **Document the same day.** Open your task folder below → **Add file → Upload files** → commit. Update the task README (pencil icon).
+- **Commit messages:** `Task N: what you did`. When a task is finished: include **`Closes Task N`**, and the board moves it to Done automatically.
+- Web upload max 25 MB per file; bigger CAD → GitHub Desktop (max 100 MB) or a STEP export.
 
-**No upload = not done.**
+## Tasks
+| Task | Phase | Duration | Members | Deadline |
+|---|---|---|---|---|
+| [Task 1: Chassis CAD](Phase-A_design/01_chassis-cad/) | Phase A | 17 days | 4 | Wed Oct 14 |
+| [Task 2: Wheel alignment calculations to choose the diameter of the wheels used](Phase-A_design/02_wheel-diameter-calcs/) | Phase A | 8 days | 1 | Mon Oct 5 |
+| [Task 3: Lifting mechanism CAD edits (Design for Manufacturing)](Phase-A_design/03_lift-cad-dfm/) | Phase A | 15 days | 3 | Mon Oct 12 |
+| [Task 4: Sheet metal cover CAD](Phase-A_design/04_sheet-metal-cover/) | Phase A | 17 days | 2 | Wed Oct 14 |
+| [Task 5: Chassis with mechanism assembly](Phase-B_integration-and-analysis/05_chassis-mechanism-assembly/) | Phase B | 5 days | 2 | Mon Oct 19 |
+| [Task 6: Chassis stress analysis](Phase-B_integration-and-analysis/06_chassis-stress-analysis/) | Phase B | 11 days | 3 | Sun Oct 25 |
+| [Task 7: Mechanisms' modal analysis](Phase-B_integration-and-analysis/07_mechanism-modal-analysis/) | Phase B | 11 days | 3 | Sun Oct 25 |
+| [Task 8: Purchase list (Al extrusion, Bearing, Wheels, Hoverboard motors)](Phase-B_integration-and-analysis/08_purchase-list/) | Phase B | 8 days | 2 | Thu Oct 22 |
+| [Task 9: Chassis and mechanisms' manufacturing](Phase-C_manufacturing-and-urdf/09_manufacturing/) | Phase C | 14 days | 8 | Sun Nov 8 |
+| [Task 10: CAD's URDF](Phase-C_manufacturing-and-urdf/10_cad-urdf/) | Phase C | 10 days | 2 | Wed Nov 4 |
+| [Task 11: Electric components testing, connecting, and fixing to the chassis](Phase-D_electrical-and-simulation-prep/11_electrical-integration/) | Phase D | 7 days | 6 | Sun Nov 15 |
+| [Task 12: New car simulation calculations and implementation](Phase-D_electrical-and-simulation-prep/12_new-car-simulation/) | Phase D | 7 days | 4 | Sun Nov 15 |
 
-## Structure
-| Folder | Parent task | Category |
+## Phase gates
+| Gate | Date | Meaning |
 |---|---|---|
-| [T1_chassis-cad/](T1_chassis-cad/) | SolidWorks design of the new chassis (aluminum profiles + 4-side aluminum sheet enclosure) | A · Chassis & Wheels |
-| [T2_wheel-config/](T2_wheel-config/) | Wheel configuration in CAD: 2 middle drive wheels (2 motors + 2 encoders) + 1 front caster | A · Chassis & Wheels |
-| [T3_market-research/](T3_market-research/) | Market research & cost estimation: suppliers, workshops and detailed pricing table | A · Chassis & Wheels |
-| [T4_chassis-fabrication/](T4_chassis-fabrication/) | Procurement, fabrication & assembly of the chassis at the selected workshops | A · Chassis & Wheels |
-| [T5_lift-cad/](T5_lift-cad/) | Find a proven, ready-made SolidWorks four-scissor lift model and extract reliable dimensions | B · Lifting Mechanism (Four-Scissor) |
-| [T6_lift-materials-and-mfg/](T6_lift-materials-and-mfg/) | Manufacturing methods & material selection for the selected lift | B · Lifting Mechanism (Four-Scissor) |
-| [T7_lift-fabrication/](T7_lift-fabrication/) | Fabrication, assembly & testing of the lifting mechanism | B · Lifting Mechanism (Four-Scissor) |
+| Gate A | Wed Oct 14 | Phase A 100% complete → Phase B unlocks |
+| Gate B | Sun Oct 25 | Phase B 100% complete → Phase C unlocks |
+| Gate C | Sun Nov 8 | Phase C 100% complete → Phase D unlocks |
+| Part 1 | Sun Nov 15 | Part 1 (Mechanical & Prep) complete |
 
-## All tasks by deadline
-| Code | Task | Deadline |
-|---|---|---|
-| 1.1 | [Define chassis requirements & design envelope](T1_chassis-cad/1.1_define-chassis-requirements-and-design/) | Wed Sep 30 |
-| 2.1 | [Replace omni wheels with the differential layout](T2_wheel-config/2.1_replace-omni-wheels/) | Thu Oct 1 |
-| 2.2 | [Drive motor & encoder sizing](T2_wheel-config/2.2_drive-motor-and-encoder-sizing/) | Sun Oct 4 |
-| 5.1 | [Search for ready-made four-scissor lift CAD](T5_lift-cad/5.1_search-for-ready-made-four-scissor-lift/) | Mon Oct 5 |
-| 1.2 | [Model the aluminum-profile frame](T1_chassis-cad/1.2_model-the-aluminum-profile-frame/) | Thu Oct 8 |
-| 3.1 | [Suppliers: motors, encoders, wheels & caster](T3_market-research/3.1_suppliers-motors-encoders-wheels/) | Thu Oct 8 |
-| 3.2 | [Suppliers: aluminum profiles, sheets & connectors](T3_market-research/3.2_suppliers-aluminum-profiles-sheets/) | Thu Oct 8 |
-| 5.2 | [Shortlist & compare candidates](T5_lift-cad/5.2_shortlist-and-compare-candidates/) | Thu Oct 8 |
-| 1.3 | [Model the 4-side aluminum-sheet enclosure](T1_chassis-cad/1.3_model-the-4-side-aluminum-sheet/) | Mon Oct 12 |
-| 2.3 | [Model motor, encoder, wheel & caster mounts](T2_wheel-config/2.3_model-motor-encoder-wheel-and-caster/) | Mon Oct 12 |
-| 3.3 | [Workshop survey & quotations](T3_market-research/3.3_workshop-survey-and-quotations/) | Mon Oct 12 |
-| 3.4 | [Detailed pricing table v1](T3_market-research/3.4_detailed-pricing-table-v1/) | Mon Oct 12 |
-| 5.3 | [Select model, verify & extract dimensions](T5_lift-cad/5.3_select-model-verify-and-extract/) | Mon Oct 12 |
-| 6.1 | [Material selection study for the lift](T6_lift-materials-and-mfg/6.1_material-selection-study-for-the-lift/) | Mon Oct 12 |
-| 1.4 | [Frame structural check (FEA)](T1_chassis-cad/1.4_frame-structural-check-fea/) | Thu Oct 15 |
-| 2.4 | [Stability & tip-over check (CG vs. 3-point support)](T2_wheel-config/2.4_stability-and-tip-over-check-cg-vs-3/) | Thu Oct 15 |
-| 3.5 | [Final pricing table & budget approval](T3_market-research/3.5_final-pricing-table-and-budget-approval/) | Thu Oct 15 |
-| 5.4 | [Finalize lift CAD & integrate into chassis](T5_lift-cad/5.4_finalize-lift-cad-and-integrate-into/) | Thu Oct 15 |
-| 6.2 | [Manufacturing method per lift part](T6_lift-materials-and-mfg/6.2_manufacturing-method-per-lift-part/) | Thu Oct 15 |
-| 1.5 | [Chassis design freeze & manufacturing drawings](T1_chassis-cad/1.5_chassis-design-freeze-and-manufacturing/) | Mon Oct 19 |
-| 3.6 | [Lock in workshop deals](T3_market-research/3.6_lock-in-workshop-deals/) | Mon Oct 19 |
-| 6.3 | [Finalize materials & lift manufacturing drawings](T6_lift-materials-and-mfg/6.3_finalize-materials-and-lift/) | Mon Oct 19 |
-| 4.1 | [Procure aluminum materials](T4_chassis-fabrication/4.1_procure-aluminum-materials/) | Thu Oct 22 |
-| 4.2 | [Procure motors, encoders, wheels & caster](T4_chassis-fabrication/4.2_procure-motors-encoders-wheels/) | Mon Oct 26 |
-| 4.3 | [Incoming inspection & workshop hand-off](T4_chassis-fabrication/4.3_incoming-inspection-and-workshop-hand/) | Mon Oct 26 |
-| 7.1 | [Procure lift materials & hardware](T7_lift-fabrication/7.1_procure-lift-materials-and-hardware/) | Mon Oct 26 |
-| 4.4 | [Cut & drill profiles; cut & bend sheets](T4_chassis-fabrication/4.4_cut-and-drill-profiles-cut-and-bend/) | Sun Nov 1 |
-| 7.2 | [Manufacture lift parts at the workshop](T7_lift-fabrication/7.2_manufacture-lift-parts-at-the-workshop/) | Mon Nov 2 |
-| 4.5 | [Frame assembly + drive-train installation](T4_chassis-fabrication/4.5_frame-assembly-drive-train-installation/) | Thu Nov 5 |
-| 7.3 | [Assemble the four-scissor lift](T7_lift-fabrication/7.3_assemble-the-four-scissor-lift/) | Thu Nov 5 |
-| 4.6 | [Enclosure sheet fitting](T4_chassis-fabrication/4.6_enclosure-sheet-fitting/) | Fri Nov 6 |
-| 7.4 | [Mount the lift on the chassis](T7_lift-fabrication/7.4_mount-the-lift-on-the-chassis/) | Sat Nov 7 |
-| 4.7 | [Chassis initial mechanical tests](T4_chassis-fabrication/4.7_chassis-initial-mechanical-tests/) | Mon Nov 9 |
-| 7.5 | [Lift functional & load tests](T7_lift-fabrication/7.5_lift-functional-and-load-tests/) | Mon Nov 9 |
-| 7.6 | [Mechanical test report & hand-over](T7_lift-fabrication/7.6_mechanical-test-report-and-hand-over/) | Mon Nov 9 |
-
-Members are listed as placeholders (Yasmin Mohamed–10); the team leader shares who is who.
+The earlier 35-task plan is kept for reference in [`archive/plan-v1/`](archive/plan-v1/).

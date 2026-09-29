@@ -24,6 +24,7 @@ _Fill in below the SAME DAY you work on this task (edit with the pencil icon)._
 | Date | Who | What was done |
 |---|---|---|
 | YYYY-MM-DD | Member X | ... |
+| 2026-09-30 | Saleh | Testing the board automation |
 
 ## Key results / numbers / decisions
 - ...

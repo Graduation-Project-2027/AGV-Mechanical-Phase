@@ -1,11 +1,8 @@
 # Task 6: Chassis stress analysis
 
-| | |
-|---|---|
-| **Phase** | Phase B · Integration & Analysis |
-| **Start → Deadline** | Thu Oct 15 → **Sun Oct 25** (11 days) |
-| **Assignees** | 3 members: Member 2 (owner), Member 3, Member 4 (see the [task portal](https://salehnassar.github.io/agv-task-portal/) for names) |
-| **Deliverable** | FEA report (stress, SF, deflection) + design changes |
+**Phase:** Phase B · Integration & Analysis  
+**Deliverable:** FEA report (stress, SF, deflection) + design changes  
+**Deadline, assignees and head-count:** see the [task portal](https://salehnassar.github.io/agv-task-portal/) (set by the team leader).
 
 ## What to do
 Static FEA of the chassis under the 100 kg payload (with dynamic factor) applied through the lift mounts, supported at the drive wheels and caster. Report von Mises stress, safety factor (target ≥ 1.5) and max deflection; propose reinforcement where needed.

@@ -1,11 +1,8 @@
 # Task 2: Wheel alignment calculations to choose the diameter of the wheels used
 
-| | |
-|---|---|
-| **Phase** | Phase A · Design |
-| **Start → Deadline** | Mon Sep 28 → **Mon Oct 5** (8 days) |
-| **Assignees** | 1 members: Member 5 (owner) (see the [task portal](https://salehnassar.github.io/agv-task-portal/) for names) |
-| **Deliverable** | Calculation sheet + recommended wheel/motor size |
+**Phase:** Phase A · Design  
+**Deliverable:** Calculation sheet + recommended wheel/motor size  
+**Deadline, assignees and head-count:** see the [task portal](https://salehnassar.github.io/agv-task-portal/) (set by the team leader).
 
 ## What to do
 Calculate the required wheel diameter and drive layout: traction and torque for robot + 100 kg payload, target speed, ground clearance, obstacle/threshold height, and alignment of the two drive wheels with the caster (all contact points on one plane, parallel axles). Compare the available hoverboard hub-motor sizes (e.g., 6.5 in, 8 in, 10 in) and recommend one. The result feeds the chassis CAD.

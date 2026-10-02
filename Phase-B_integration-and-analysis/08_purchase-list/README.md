@@ -1,11 +1,8 @@
 # Task 8: Purchase list (Al extrusion, Bearing, Wheels, Hoverboard motors)
 
-| | |
-|---|---|
-| **Phase** | Phase B · Integration & Analysis |
-| **Start → Deadline** | Thu Oct 15 → **Thu Oct 22** (8 days) |
-| **Assignees** | 2 members: Member 5 (owner), Member 10 (see the [task portal](https://salehnassar.github.io/agv-task-portal/) for names) |
-| **Deliverable** | Approved purchase list with suppliers, prices and lead times |
+**Phase:** Phase B · Integration & Analysis  
+**Deliverable:** Approved purchase list with suppliers, prices and lead times  
+**Deadline, assignees and head-count:** see the [task portal](https://salehnassar.github.io/agv-task-portal/) (set by the team leader).
 
 ## What to do
 Build the final purchase list from the CAD: aluminum extrusion (profile, total length, cuts), brackets/T-nuts/fasteners, bearings, wheels and caster, hoverboard motors, sheets and lift stock. For each item: spec, quantity, 2–3 suppliers with price (EGP) and lead time. Get budget approval so ordering starts on day 1 of Phase C.

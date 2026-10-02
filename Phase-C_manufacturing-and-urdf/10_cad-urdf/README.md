@@ -1,11 +1,8 @@
 # Task 10: CAD's URDF
 
-| | |
-|---|---|
-| **Phase** | Phase C · Manufacturing & URDF |
-| **Start → Deadline** | Mon Oct 26 → **Wed Nov 4** (10 days) |
-| **Assignees** | 2 members: Member 8 (owner), Member 9 (see the [task portal](https://salehnassar.github.io/agv-task-portal/) for names) |
-| **Deliverable** | URDF package (urdf + meshes) that loads in RViz/Gazebo |
+**Phase:** Phase C · Manufacturing & URDF  
+**Deliverable:** URDF package (urdf + meshes) that loads in RViz/Gazebo  
+**Deadline, assignees and head-count:** see the [task portal](https://salehnassar.github.io/agv-task-portal/) (set by the team leader).
 
 ## What to do
 Export the final assembly to URDF (SolidWorks to URDF exporter): correct link frames, joint axes and limits (drive wheels, caster, lift), masses and inertias from CAD, and simplified collision meshes. Check it loads in RViz/Gazebo and hand it to the software team (it replaces the old mecanum model).

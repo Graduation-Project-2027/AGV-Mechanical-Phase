@@ -1,11 +1,8 @@
 # Task 5: Chassis with mechanism assembly
 
-| | |
-|---|---|
-| **Phase** | Phase B · Integration & Analysis |
-| **Start → Deadline** | Thu Oct 15 → **Mon Oct 19** (5 days) |
-| **Assignees** | 2 members: Member 1 (owner), Member 9 (see the [task portal](https://salehnassar.github.io/agv-task-portal/) for names) |
-| **Deliverable** | Top-level assembly + interference report + mass properties |
+**Phase:** Phase B · Integration & Analysis  
+**Deliverable:** Top-level assembly + interference report + mass properties  
+**Deadline, assignees and head-count:** see the [task portal](https://salehnassar.github.io/agv-task-portal/) (set by the team leader).
 
 ## What to do
 Mate the chassis, cover, drive wheels and the DFM lift into one top-level assembly. Run interference detection through the full lift stroke, check clearances to wiring and cover, and compute the combined mass properties (mass, CG) for the analyses and the URDF.

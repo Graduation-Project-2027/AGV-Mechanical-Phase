@@ -1,11 +1,8 @@
 # Task 1: Chassis CAD
 
-| | |
-|---|---|
-| **Phase** | Phase A · Design |
-| **Start → Deadline** | Mon Sep 28 → **Wed Oct 14** (17 days) |
-| **Assignees** | 4 members: Member 1 (owner), Member 2, Member 3, Member 4 (see the [task portal](https://salehnassar.github.io/agv-task-portal/) for names) |
-| **Deliverable** | Chassis assembly (.SLDASM) + STEP + profile cut list |
+**Phase:** Phase A · Design  
+**Deliverable:** Chassis assembly (.SLDASM) + STEP + profile cut list  
+**Deadline, assignees and head-count:** see the [task portal](https://salehnassar.github.io/agv-task-portal/) (set by the team leader).
 
 ## What to do
 Full SolidWorks model of the new chassis: aluminum-extrusion frame (standard profiles, brackets, T-nuts), mounting points for the drive wheels/hoverboard motors, caster, lift base plate, battery and electronics bay, and front/rear LiDAR mounts. Size members for the 100 kg payload case.

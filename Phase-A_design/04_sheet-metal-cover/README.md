@@ -1,11 +1,8 @@
 # Task 4: Sheet metal cover CAD
 
-| | |
-|---|---|
-| **Phase** | Phase A · Design |
-| **Start → Deadline** | Mon Sep 28 → **Wed Oct 14** (17 days) |
-| **Assignees** | 2 members: Member 9 (owner), Member 10 (see the [task portal](https://salehnassar.github.io/agv-task-portal/) for names) |
-| **Deliverable** | Sheet-metal parts + flat-pattern DXFs |
+**Phase:** Phase A · Design  
+**Deliverable:** Sheet-metal parts + flat-pattern DXFs  
+**Deadline, assignees and head-count:** see the [task portal](https://salehnassar.github.io/agv-task-portal/) (set by the team leader).
 
 ## What to do
 Design the aluminum sheet-metal cover for all four sides using SolidWorks Sheet Metal: fixing to the extrusion slots, removable access panel(s) for battery/electronics, LiDAR windows, cable pass-throughs and ventilation. Export flat patterns (DXF) with bend lines.

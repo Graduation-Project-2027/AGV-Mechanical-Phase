@@ -13,6 +13,38 @@ Mechanical design, manufacturing and the mechanical preparation for the electric
 - Web upload max 25 MB per file; bigger CAD → GitHub Desktop (max 100 MB) or a STEP export.
 
 <!-- PLAN:START -->
+## 📋 Current plan
+
+_Synced from the [task portal](https://salehnassar.github.io/agv-task-portal/) · Tue Oct 06, 01:04 (Cairo time). Dates and people are edited on the portal, not here._
+
+### Phase A · Design — ▶ Active · Tue Oct 6 → Wed Oct 14
+
+| Task | People (owner first) | Needed | Start | Deadline | Status |
+|---|---|---|---|---|---|
+| [Task 1: Chassis CAD](Phase-A_design/01_chassis-cad/) | **Yasmin Mohamed**, Basmala Mohamed | 2 | Tue Oct 6 | **Fri Oct 9** | ⬜ To Do |
+| [Task 2: Wheel alignment calculations to choose the diameter of the wheels used](Phase-A_design/02_wheel-diameter-calcs/) | **Saleh Nassar** | 1 | Tue Oct 6 | **Thu Oct 8** | ⬜ To Do |
+| [Task 3: Lifting mechanism CAD edits (Design for Manufacturing)](Phase-A_design/03_lift-cad-dfm/) | **Ahmed Loay**, Omar Farahat | 2 | Mon Oct 12 | **Wed Oct 14** | ⬜ To Do |
+| [Task 4: Sheet metal cover CAD](Phase-A_design/04_sheet-metal-cover/) | **Ahmed Ismail** | 1 | Tue Oct 6 | **Fri Oct 9** | ⬜ To Do |
+
+### Phase B · Integration & Analysis — 🔒 Starts when Phase A is 100% done · Thu Oct 15 → Sun Oct 25
+
+| Task | People (owner first) | Needed | Start | Deadline | Status |
+|---|---|---|---|---|---|
+| [Task 5: Chassis with mechanism assembly](Phase-B_integration-and-analysis/05_chassis-mechanism-assembly/) | **Nada Mostafa** | 1 | Thu Oct 15 | **Mon Oct 19** | 🔒 Waiting |
+| [Task 6: Chassis stress analysis](Phase-B_integration-and-analysis/06_chassis-stress-analysis/) | **Nadine Elframawy** | 1 | Thu Oct 15 | **Sun Oct 25** | 🔒 Waiting |
+| [Task 7: Mechanisms' modal analysis](Phase-B_integration-and-analysis/07_mechanism-modal-analysis/) | **Basant Salah** | 1 | Thu Oct 15 | **Sun Oct 25** | 🔒 Waiting |
+| [Task 8: Purchase list (Al extrusion, Bearing, Wheels, Hoverboard motors)](Phase-B_integration-and-analysis/08_purchase-list/) | **Youssef Wahba** | 1 | Thu Oct 15 | **Thu Oct 22** | 🔒 Waiting |
+
+### Phase C · Manufacturing & URDF — 🔒 Starts when Phase B is 100% done · Mon Oct 26 → Sun Nov 8
+
+| Task | People (owner first) | Needed | Start | Deadline | Status |
+|---|---|---|---|---|---|
+| [Task 9: Chassis and mechanisms' manufacturing](Phase-C_manufacturing-and-urdf/09_manufacturing/) | _not assigned_ | — | Mon Oct 26 | **Sun Nov 8** | 🔒 Waiting |
+| [Task 10: CAD's URDF](Phase-C_manufacturing-and-urdf/10_cad-urdf/) | _not assigned_ | — | Mon Oct 26 | **Wed Nov 4** | 🔒 Waiting |
+
+### Phase D · After Mechanical — 🔒 Starts when Phase C is 100% done
+
+_Tasks will be added later._
 <!-- PLAN:END -->
 
 Earlier plans are kept for reference in [`archive/`](archive/).

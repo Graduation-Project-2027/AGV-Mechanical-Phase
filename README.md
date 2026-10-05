@@ -12,25 +12,7 @@ Mechanical design, manufacturing and the mechanical preparation for the electric
 - **Commit messages:** `Task N: what you did`. When a task is finished, include **`Closes Task N`** and the board moves it to Done automatically.
 - Web upload max 25 MB per file; bigger CAD → GitHub Desktop (max 100 MB) or a STEP export.
 
-## Tasks
-
-**[Phase A · Design](Phase-A_design/)**
-- [Task 1: Chassis CAD](Phase-A_design/01_chassis-cad/)
-- [Task 2: Wheel alignment calculations to choose the diameter of the wheels used](Phase-A_design/02_wheel-diameter-calcs/)
-- [Task 3: Lifting mechanism CAD edits (Design for Manufacturing)](Phase-A_design/03_lift-cad-dfm/)
-- [Task 4: Sheet metal cover CAD](Phase-A_design/04_sheet-metal-cover/)
-
-**[Phase B · Integration & Analysis](Phase-B_integration-and-analysis/)**
-- [Task 5: Chassis with mechanism assembly](Phase-B_integration-and-analysis/05_chassis-mechanism-assembly/)
-- [Task 6: Chassis stress analysis](Phase-B_integration-and-analysis/06_chassis-stress-analysis/)
-- [Task 7: Mechanisms' modal analysis](Phase-B_integration-and-analysis/07_mechanism-modal-analysis/)
-- [Task 8: Purchase list (Al extrusion, Bearing, Wheels, Hoverboard motors)](Phase-B_integration-and-analysis/08_purchase-list/)
-
-**[Phase C · Manufacturing & URDF](Phase-C_manufacturing-and-urdf/)**
-- [Task 9: Chassis and mechanisms' manufacturing](Phase-C_manufacturing-and-urdf/09_manufacturing/)
-- [Task 10: CAD's URDF](Phase-C_manufacturing-and-urdf/10_cad-urdf/)
-
-**[Phase D · After Mechanical](Phase-D_electrical-and-simulation-prep/)**
-- _Tasks will be added after the mechanical work_
+<!-- PLAN:START -->
+<!-- PLAN:END -->
 
 Earlier plans are kept for reference in [`archive/`](archive/).

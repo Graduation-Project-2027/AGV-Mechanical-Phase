@@ -15,14 +15,14 @@ Mechanical design, manufacturing and the mechanical preparation for the electric
 <!-- PLAN:START -->
 ## 📋 Current plan
 
-_Synced from the [task portal](https://salehnassar.github.io/agv-task-portal/) · Tue Oct 06, 01:04 (Cairo time). Dates and people are edited on the portal, not here._
+_Synced from the [task portal](https://salehnassar.github.io/agv-task-portal/) · Fri Oct 09, 02:42 (Cairo time). Dates and people are edited on the portal, not here._
 
 ### Phase A · Design — ▶ Active · Tue Oct 6 → Wed Oct 14
 
 | Task | People (owner first) | Needed | Start | Deadline | Status |
 |---|---|---|---|---|---|
 | [Task 1: Chassis CAD](Phase-A_design/01_chassis-cad/) | **Yasmin Mohamed**, Basmala Mohamed | 2 | Tue Oct 6 | **Fri Oct 9** | ⬜ To Do |
-| [Task 2: Wheel alignment calculations to choose the diameter of the wheels used](Phase-A_design/02_wheel-diameter-calcs/) | **Saleh Nassar** | 1 | Tue Oct 6 | **Thu Oct 8** | ⬜ To Do |
+| [Task 2: Wheel alignment calculations to choose the diameter of the wheels used](Phase-A_design/02_wheel-diameter-calcs/) | **Saleh Nassar** | 1 | Tue Oct 6 | **Thu Oct 8** | ⬜ To Do · ⚠️ overdue |
 | [Task 3: Lifting mechanism CAD edits (Design for Manufacturing)](Phase-A_design/03_lift-cad-dfm/) | **Ahmed Loay**, Omar Farahat | 2 | Mon Oct 12 | **Wed Oct 14** | ⬜ To Do |
 | [Task 4: Sheet metal cover CAD](Phase-A_design/04_sheet-metal-cover/) | **Ahmed Ismail** | 1 | Tue Oct 6 | **Fri Oct 9** | ⬜ To Do |
 

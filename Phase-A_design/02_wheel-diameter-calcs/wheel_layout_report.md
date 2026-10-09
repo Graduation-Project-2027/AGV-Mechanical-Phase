@@ -29,6 +29,27 @@ All numbers use the frame of **`Assem_Base.SLDASM`**, read with the SolidWorks A
 | Old robot height | table top 165 mm, LiDAR top 204 mm above the floor |
 | Mass in CAD | 8.75 kg (includes the old wheels and brackets) |
 
+### Where is (0, 0, 0)?
+
+All X / Y / Z values are measured from the **Origin of `Assem_Base.SLDASM`** (the one shown in the SolidWorks feature tree). On the real frame, that origin is a corner:
+
+| Axis | Zero is… | Positive direction |
+|---|---|---|
+| **X = 0** | the **outer face of the LEFT side profile** (600 mm profiles, X 0–40) | towards the right side profile (its outer face is X = 305) |
+| **Y = 0** | the **top face of the frame** (top of the upper 600 mm side profiles) | **up**. So everything below the frame top is negative |
+| **Z = 0** | the **end face of the cross members at the lift-motor end** (the NEMA 23 stepper of the lift and LiDAR 1 are at this end) | towards the other end (frame length 610) |
+
+The same locations, measured from the frame with a ruler:
+
+| Item | From the frame |
+|---|---|
+| Drive axle, left / right | **87.5 mm outside** the outer face of the left / right side profile · **133.5 mm below the frame top** (= 6.5 mm above the frame bottom) · **305 mm** from the motor-end face = exactly **mid-length** |
+| Casters | swivel axis **17.5 mm outside** the left / right side profile (30 mm in from the end of the 400 mm cross member) · on the **centre line of the lower cross members** (20 mm in from each end face) · plate on the **bottom face** of the cross member |
+| Floor | **215 mm below the frame top** = **75 mm below the frame bottom** |
+| Robot centre | midway between the side profiles (152.5 from the left outer face) and mid-length (305) |
+
+> If you put this layout into another assembly, insert `Assem_Base` with its origin coincident to the new origin (or mate the frame to these faces); then all the coordinates in `wheel_layout_coordinates.csv` stay valid.
+
 **Old wheel hardware to remove** (only used by the mecanum wheels, all outside the frame): `Mecanum-Wheel` ×4, `Part3` ×4, `Part4` ×4, `Part5` ×16, `Part10` ×4, `Part11` ×4, `Part12` ×4. Keep `Part9` (frame corner brackets).
 
 ## 2. The key design decision: spring-loaded drive wheels

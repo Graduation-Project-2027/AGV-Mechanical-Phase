@@ -22,10 +22,11 @@ _Fill in below the SAME DAY you work on this task (edit with the pencil icon)._
 |---|---|---|
 | YYYY-MM-DD | Member X | ... |
 | 2026-09-30 | Saleh | Testing the board automation |
+| 2026-10-10 | Saleh | Report: explained the coordinate origin and added the same locations measured from the frame |
 | 2026-10-09 | Saleh | v1 wheel layout: CAD measured via SolidWorks API, 6.5 in hub motors + 4 x 2 in casters, alignment, loads, calculator, drawing |
 
 ## Key results / numbers / decisions
-Full report: **[wheel_layout_report.md](wheel_layout_report.md)**. All coordinates are in the `Assem_Base.SLDASM` frame (X width, Y up, Z length, mm).
+Full report: **[wheel_layout_report.md](wheel_layout_report.md)**. All coordinates are in the `Assem_Base.SLDASM` frame (X width, Y up, Z length, mm). **Origin (0,0,0):** X = 0 is the outer face of the left side profile, Y = 0 is the frame top (down is negative), Z = 0 is the cross-member end face at the lift-motor end ([details](wheel_layout_report.md#where-is-0-0-0)).
 
 - **Layout:** 2 drive wheels at mid-length + 4 swivel casters at the corners. **The drive wheels are spring-loaded** (100 N preload each, ±5 mm travel); the casters are rigid and define the floor.
 - **Drive wheels:** 6.5 in hoverboard hub motors, Ø165 mm. Axles at **X −87.5 / 392.5, Y −133.5, Z 305**; track 480 mm.

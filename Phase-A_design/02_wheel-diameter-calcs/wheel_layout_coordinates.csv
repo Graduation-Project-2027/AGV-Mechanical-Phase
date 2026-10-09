@@ -1,0 +1,9 @@
+item,x_mm,y_mm,z_mm,wheel_diameter_mm,note
+ground_plane,-,-215.0,-,-,Floor level (all 6 contact points must lie on this plane)
+drive_axle_left,-87.5,-133.5,305.0,165.0,"Hub-motor axle centre, suspension at mid-travel"
+drive_axle_right,392.5,-133.5,305.0,165.0,"Hub-motor axle centre, suspension at mid-travel"
+caster_1_left_end1,-17.5,-140.0,20.0,50.0,Swivel axis; top of caster adapter plate bolted to the cross-member bottom face
+caster_2_right_end1,322.5,-140.0,20.0,50.0,Swivel axis; top of caster adapter plate bolted to the cross-member bottom face
+caster_3_left_end2,-17.5,-140.0,590.0,50.0,Swivel axis; top of caster adapter plate bolted to the cross-member bottom face
+caster_4_right_end2,322.5,-140.0,590.0,50.0,Swivel axis; top of caster adapter plate bolted to the cross-member bottom face
+robot_centre,152.5,-,305.0,-,Rotation centre for in-place turns (base_link)

@@ -1,0 +1,4 @@
+size,diameter_mm,tyre_width_mm,mass_kg_est,axle_y,wheel_top_y,wheel_top_above_frame_top_mm,torque_per_wheel_slope_case_Nm,wheel_rpm_at_1mps,max_step_mm_approx
+6.5 in,165.1,55,3.1,-133.4,-49.9,-49.9,5.25,115.7,17
+8 in,203.2,60,3.8,-114.4,-11.8,-11.8,6.48,94.0,20
+10 in,254.0,80,4.6,-89.0,39.0,39.0,8.12,75.2,25

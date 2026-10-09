@@ -50,6 +50,24 @@ The same locations, measured from the frame with a ruler:
 
 > If you put this layout into another assembly, insert `Assem_Base` with its origin coincident to the new origin (or mate the frame to these faces); then all the coordinates in `wheel_layout_coordinates.csv` stay valid.
 
+### Same points in the robot frame `Base_Coordinate` (for the URDF, Task 10)
+
+The assembly also has a coordinate system **Base_Coordinate** (robot frame used for the URDF). It is **not** the Origin: it sits at X 152.5, Y −119.47, Z 307.5 of the assembly, with **robot +X = forward = towards the Z = 0 end** (lift-motor end, where FR/FL_Point are), **robot +Y = left** (the X = 0 side profile is the robot's left), **robot +Z = up**.
+
+So the **front of the robot is the Z = 0 end** (lift motor + LiDAR 1). Casters 1–2 are the front pair.
+
+| Item | x (m, forward) | y (m, left) | z (m, up) |
+|---|---|---|---|
+| Drive axle, left | +0.0025 | +0.2400 | -0.0140 |
+| Drive axle, right | +0.0025 | -0.2400 | -0.0140 |
+| Caster 1 (front left) | +0.2875 | +0.1700 | -0.0205 |
+| Caster 2 (front right) | +0.2875 | -0.1700 | -0.0205 |
+| Caster 3 (rear left) | -0.2825 | +0.1700 | -0.0205 |
+| Caster 4 (rear right) | -0.2825 | -0.1700 | -0.0205 |
+| Floor | | | -0.0955 |
+
+> The drive axles are 2.5 mm behind Base_Coordinate (frame mid-length is Z 305, Base_Coordinate is at Z 307.5). For differential drive, base_link should sit on the axle line, so Task 10 should move Base_Coordinate to Z 305, or accept the 2.5 mm offset.
+
 **Old wheel hardware to remove** (only used by the mecanum wheels, all outside the frame): `Mecanum-Wheel` ×4, `Part3` ×4, `Part4` ×4, `Part5` ×16, `Part10` ×4, `Part11` ×4, `Part12` ×4. Keep `Part9` (frame corner brackets).
 
 ## 2. The key design decision: spring-loaded drive wheels
@@ -162,5 +180,5 @@ Masses: empty robot **30.2 kg** (mass budget sheet, +10% margin), design payload
 1. Measure the real hub motor and caster, update the calculator, and re-check the positions.
 2. Confirm the +53 mm robot height against the racks.
 3. Confirm the empty mass once the parts are bought, and assign materials to every CAD part.
-4. Decide which end (Z = 0 or Z = 610) is the front.
+4. ~~Decide which end is the front~~: the CAD already defines it, so the **front is the Z = 0 end** (see the Base_Coordinate section).
 5. Suspension concept: a vertical slide or a trailing arm. This goes to Task 1.

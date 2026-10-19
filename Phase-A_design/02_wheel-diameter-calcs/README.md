@@ -22,29 +22,29 @@ _Fill in below the SAME DAY you work on this task (edit with the pencil icon)._
 |---|---|---|
 | YYYY-MM-DD | Member X | ... |
 | 2026-09-30 | Saleh | Testing the board automation |
+| 2026-10-20 | Saleh | v2: redid Task 2 on the new chassis CAD ([A-00] Main AMR Assembly, origin at the robot centre); found the axle/profile clash and the fix (frame -7 mm) |
 | 2026-10-10 | Saleh | Report: explained the coordinate origin and added the same locations measured from the frame |
 | 2026-10-09 | Saleh | v1 wheel layout: CAD measured via SolidWorks API, 6.5 in hub motors + 4 x 2 in casters, alignment, loads, calculator, drawing |
 
 ## Key results / numbers / decisions
-Full report: **[wheel_layout_report.md](wheel_layout_report.md)**. All coordinates are in the `Assem_Base.SLDASM` frame (X width, Y up, Z length, mm). **Origin (0,0,0):** X = 0 is the outer face of the left side profile, Y = 0 is the frame top (down is negative), Z = 0 is the cross-member end face at the lift-motor end ([details](wheel_layout_report.md#where-is-0-0-0)).
+**v2 (2026-10-20), based on the new chassis `[A-00] Main AMR Assembly` (Task 1).** Full report: **[wheel_layout_report.md](wheel_layout_report.md)**. v1 (old frame) is in `archive_v1_old-frame/`.
 
-- **Layout:** 2 drive wheels at mid-length + 4 swivel casters at the corners. **The drive wheels are spring-loaded** (100 N preload each, ±5 mm travel); the casters are rigid and define the floor.
-- **Drive wheels:** 6.5 in hoverboard hub motors, Ø165 mm. Axles at **X −87.5 / 392.5, Y −133.5, Z 305**; track 480 mm.
-- **Casters:** 2 in (50 mm) swivel, **rated ≥ 60 kg**, installed height 75 mm (with a spacer). Axes at **X −17.5 / 322.5, Z 20 / 590**, on the cross-member bottom face Y −140.
-- **Floor plane Y = −215.** Ground clearance is 75 mm, so the robot is **+53 mm taller** than the old one (check against the racks).
-- **Torque needed:** 5.25 N·m per wheel (loaded, 2° slope, 0.5 m/s²). **Limit loaded acceleration to 0.4 m/s².**
-- **Stable:** loaded tip-over limit 3.4 m/s²; in-place rotation radius 411 mm.
+- **Reference point:** origin = robot centre (X 0, Z 0); Y up; the floor surface is **Y = +1.0** (the Ground part is 1 mm thick).
+- **As modelled:** frame 524 × 656 (X ±262, Z ±328); drive tyres Ø172 at **X ±294.3, axle Y 87, Z 0** (track 588.6); casters at **X ±175, Z ±230.8**. All six wheels touch the floor plane ✔.
+- ❌ **The axle sits on the bottom side profile under load** (gap −0.05 mm), so there is no room for the suspension. **Fix: lower the frame 7 mm.** Move Ground +7 (floor Y 8), move the axle +7 (Y 94), and use casters with **68.35 mm** installed height (for example a 64 mm low-profile caster + 4.35 mm spacer). The axle gap then becomes 6.95 mm.
+- ❌ The caster model (76.85 mm) is 1.5 mm too tall for its space. ⚠️ The tyres stick out above the frame top (13.65 mm after the fix), so the cover needs wheel wells. ⚠️ No suspension and no materials in the CAD yet.
+- **Drive:** preload **120 N per wheel**, spring ≤ 6 N/mm, ±5 mm travel; torque **5.75 N·m** per wheel; limit loaded acceleration to 0.5 m/s².
+- **Casters:** rated **≥ 60 kg** each (worst load 385 N). **Stability:** tip-over limit loaded 3.1 m/s².
 
 ## Files in this folder
-- `wheel_layout_report.md`: decisions, numbers, checks, hand-off per task
-- `wheel_layout_drawing.svg`: dimensioned top + side view
-- `wheel_layout_coordinates.csv`: axle, caster and floor coordinates for CAD
-- `wheel_layout_calculator.xlsx`: live calculator (edit the blue inputs)
-- `hub_motor_size_comparison.csv`: 6.5 / 8 / 10 in comparison
-- `calc/`: Python sources (`wheel_layout_calc.py` regenerates the SVG and CSV files; `build_calculator_xlsx.py` builds the workbook)
+- `wheel_layout_report.md`: v2 report (reference point, measurements, problems + fix, final positions, loads, what each task should do)
+- `wheel_layout_drawing.svg`: top + side view, as modelled
+- `wheel_layout_coordinates.csv`: axle, caster and floor coordinates (Task 1 frame)
+- `wheel_layout_calculator.xlsx`: live calculator (inputs = CAD measurements)
+- `calc/`: Python sources
+- `archive_v1_old-frame/`: v1, based on the old Assem_Base frame (superseded)
 
 ## Open issues & next steps
-- Measure the purchased hub motor and caster, update the calculator inputs, and re-run.
-- Confirm the +53 mm height against the rack clearance.
-- Decide which end is the front, and the suspension concept (slide or trailing arm) with Task 1.
-- Assign materials to every CAD part to confirm the mass budget.
+- Team to confirm the 7 mm frame lowering (or choose another option, see report section 3).
+- Measure the real hub motor and caster; update the calculator.
+- Define the front end of the robot.

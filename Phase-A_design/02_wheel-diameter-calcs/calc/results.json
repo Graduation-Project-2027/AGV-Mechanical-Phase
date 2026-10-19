@@ -1,181 +1,49 @@
 {
-  "ground_y": -215.0,
-  "drive_axle_y_nominal": -133.5,
-  "drive_wheel_top_y": -50.0,
-  "ground_clearance_under_frame": 75.0,
-  "height_change_vs_old": 53.19999999999999,
-  "table_top_above_floor": 218.35,
-  "lidar_top_above_floor": 257.6,
-  "caster_spacers": [
-    {
-      "caster": "Revvo 50 mm low-profile twin nylon",
-      "total_height": 64.0,
-      "rating_kg": 160.0,
-      "spacer_mm": 11.0
-    },
-    {
-      "caster": "Richelieu 50 mm twin nylon w/ brake",
-      "total_height": 73.0,
-      "rating_kg": 60.0,
-      "spacer_mm": 2.0
-    },
-    {
-      "caster": "Generic 50 mm PU plate caster",
-      "total_height": 70.0,
-      "rating_kg": 29.5,
-      "spacer_mm": 5.0
-    }
-  ],
-  "drive_wheels": {
-    "left": [
-      -87.5,
-      -133.5,
-      305.0
-    ],
-    "right": [
-      392.5,
-      -133.5,
-      305.0
-    ]
-  },
-  "casters": [
-    [
-      -17.5,
-      20.0
-    ],
-    [
-      322.5,
-      20.0
-    ],
-    [
-      -17.5,
-      590.0
-    ],
-    [
-      322.5,
-      590.0
-    ]
-  ],
-  "caster_track_x": 340.0,
-  "caster_wheelbase_z": 570.0,
-  "overall_width_over_tyres": 535.0,
-  "drive_inner_tyre_face_gap_to_rail": 60.0,
-  "caster_swivel_radius": 60.0,
-  "rotation_radius": 411.41441503671206,
-  "support_polygon": [
-    [
-      -87.5,
-      305.0
-    ],
-    [
-      17.5,
-      55.0
-    ],
-    [
-      287.5,
-      55.0
-    ],
-    [
-      392.5,
-      305.0
-    ],
-    [
-      287.5,
-      555.0
-    ],
-    [
-      17.5,
-      555.0
-    ]
-  ],
-  "tip_margin_min_m": 0.22127570534576674,
-  "tip_margin_long_m": 0.25,
-  "tip_accel_limit_loaded": 3.360429338883944,
-  "tip_accel_limit_loaded_longitudinal": 3.9240000000000004,
-  "tip_accel_limit_empty": 14.471431129613146,
-  "drive_cases": {
-    "loaded, flat, a=0.5": {
-      "total_N": 84.25892999999999,
-      "per_wheel_N": 42.129464999999996,
-      "torque_per_wheel_Nm": 3.4335513974999996,
-      "normal_force_needed_mu_nom_N": 84.25892999999999,
-      "normal_force_needed_mu_worst_N": 105.32366249999998
-    },
-    "loaded, 2 deg slope, a=0.5": {
-      "total_N": 128.82305985473076,
-      "per_wheel_N": 64.41152992736538,
-      "torque_per_wheel_Nm": 5.249539689080279,
-      "normal_force_needed_mu_nom_N": 128.82305985473076,
-      "normal_force_needed_mu_worst_N": 161.02882481841343
-    },
-    "loaded, 2 deg slope, constant speed": {
-      "total_N": 63.72305985473075,
-      "per_wheel_N": 31.861529927365375,
-      "torque_per_wheel_Nm": 2.596714689080278,
-      "normal_force_needed_mu_nom_N": 63.72305985473075,
-      "normal_force_needed_mu_worst_N": 79.65382481841343
-    },
-    "empty, flat, a=1.0": {
-      "total_N": 34.64393,
-      "per_wheel_N": 17.321965,
-      "torque_per_wheel_Nm": 1.4117401475,
-      "normal_force_needed_mu_nom_N": 34.64393,
-      "normal_force_needed_mu_worst_N": 43.30491249999999
-    }
-  },
-  "wheel_rpm_at_1mps": 115.74904952137845,
-  "preload_fraction_of_empty_weight": 0.6750781402947391,
-  "caster_load_empty_N": 24.0655,
-  "caster_load_loaded_static_N": 269.3155,
-  "caster_load_loaded_worst_N": 353.8883947368421,
-  "caster_rating_required_kg": 54.11137534202478,
-  "traction_accel_limit": {
-    "0.5": 0.6208991551459294,
-    "0.4": 0.4672893241167435
-  },
-  "traction_accel_limit_slope": {
-    "0.5": 0.27862473229853496,
-    "0.4": 0.12501490126934908
-  },
-  "spring_rate_at_wheel_max_N_per_mm": 5.0,
-  "spring_preload_compression_at_wheel_mm": 20.0,
-  "suspension_travel_at_wheel_mm": 10.0,
-  "hub_motor_comparison": [
-    {
-      "size": "6.5 in",
-      "diameter_mm": 165.1,
-      "tyre_width_mm": 55,
-      "mass_kg_est": 3.1,
-      "axle_y": -133.4,
-      "wheel_top_y": -49.9,
-      "wheel_top_above_frame_top_mm": -49.9,
-      "torque_per_wheel_slope_case_Nm": 5.25,
-      "wheel_rpm_at_1mps": 115.7,
-      "max_step_mm_approx": 17
-    },
-    {
-      "size": "8 in",
-      "diameter_mm": 203.2,
-      "tyre_width_mm": 60,
-      "mass_kg_est": 3.8,
-      "axle_y": -114.4,
-      "wheel_top_y": -11.8,
-      "wheel_top_above_frame_top_mm": -11.8,
-      "torque_per_wheel_slope_case_Nm": 6.48,
-      "wheel_rpm_at_1mps": 94.0,
-      "max_step_mm_approx": 20
-    },
-    {
-      "size": "10 in",
-      "diameter_mm": 254.0,
-      "tyre_width_mm": 80,
-      "mass_kg_est": 4.6,
-      "axle_y": -89.0,
-      "wheel_top_y": 39.0,
-      "wheel_top_above_frame_top_mm": 39.0,
-      "torque_per_wheel_slope_case_Nm": 8.12,
-      "wheel_rpm_at_1mps": 75.2,
-      "max_step_mm_approx": 25
-    }
-  ]
+  "caster_contact_y": 1.0,
+  "drive_contact_y_as_modelled": 1.0,
+  "drive_contact_error_mm": 0.0,
+  "caster_mount_height_above_floor": 75.35,
+  "caster_model_height": 76.85,
+  "caster_plate_overlap_mm": 1.5,
+  "ground_clearance_frame": 45.35,
+  "ground_clearance_lowest": 35.35,
+  "frame_top_above_floor": 165.35,
+  "drive_top_y": 173.0,
+  "drive_top_above_frame_top": 6.650000000000006,
+  "axle_gap_to_bottom_profile": 0.9500000000000028,
+  "axle_gap_loaded_now": -0.04999999999999716,
+  "proposed_frame_lowering_mm": 7,
+  "proposed_axle_y": 86.0,
+  "proposed_axle_gap_loaded": 6.950000000000003,
+  "proposed_caster_mount_height": 68.35,
+  "proposed_clearance_frame": 38.35,
+  "proposed_clearance_lowest": 28.35,
+  "proposed_frame_top_above_floor": 158.35,
+  "proposed_tyre_top_above_frame_top": 13.650000000000006,
+  "tyre_gap_to_frame": 9.300000000000011,
+  "track": 588.6,
+  "width_over_tyres": 634.6,
+  "caster_track": 350.0,
+  "caster_base": 461.6,
+  "caster_swivel_radius": 48.35,
+  "rotation_radius": 419.7951881572727,
+  "margin_long_m": 0.2078,
+  "margin_side_m": 0.2428219847517995,
+  "margin_min_m": 0.2078,
+  "tip_accel_loaded": 3.0960360000000002,
+  "tip_accel_empty": 13.590120000000002,
+  "loaded_mass": 136.8,
+  "torque_flat": 3.7625301000000007,
+  "torque_slope": 5.752513594434752,
+  "rpm_1mps": 111.03833238969442,
+  "preload_fraction": 0.6648052120728627,
+  "caster_load_empty": 30.251999999999995,
+  "caster_load_static": 275.50200000000007,
+  "caster_load_worst": 385.22946967071067,
+  "caster_rating_kg": 58.90358863466524,
+  "a_slip_nom": 0.7300429824561403,
+  "a_slip_worst": 0.5546043859649122,
+  "a_slip_slope_worst": 0.2123299631175177,
+  "k_wheel": 6.0,
+  "preload_compression": 20.0
 }

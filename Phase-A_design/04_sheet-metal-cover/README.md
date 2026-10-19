@@ -21,12 +21,16 @@ _Fill in below the SAME DAY you work on this task (edit with the pencil icon)._
 | Date | Who | What was done |
 |---|---|---|
 | YYYY-MM-DD | Member X | ... |
+| 2026-10-10 | Ahmed Ismail | Modeled the side panel and box cover in SolidWorks; made the drawing for the side panel |
 
 ## Key results / numbers / decisions
-- ...
+- Sheet thickness: 3 mm
 
 ## Files in this folder
-- ...
+- `SidePanel.SLDPRT`, `SidePanel.SLDDRW`
+- `box_part1.SLDPRT` (randomly measured, no PCB dimensions yet)
+- `battery.SLDPRT` (reference part)
 
 ## Open issues & next steps
-- ...
+- Verify the dimensions; final design
+- From Task 2 v2: wheel wells for the Ø172 drive tyres, which stick out up to 13.65 mm above the frame top, + ±5 mm suspension travel

@@ -1,17 +1,17 @@
-# T4 Sheet metal cover CAD
-Owner: Ahmed Ismail · Date: 2026-10-10
+# Phase A · Design
 
-## What was done
-- Modeled the side panel and box cover in SolidWorks
-- Made the drawing for the side panel
+Phase A: CAD design of chassis, wheels, lift (DFM) and sheet-metal cover
 
-## Key results / numbers / decisions
-- Sheet thickness: 3mm
+First phase. Tasks inside a phase run in parallel.
 
-## Files in this folder
-- SidePanel.SLDPRT, SidePanel.SLDDRW
-- box_part1.SLDPRT (randomly measured, no pcb dim yet)
-- battery.SLDPRT (reference part)
+📋 Dates, who works on each task and how many people are needed: see the [task portal](https://salehnassar.github.io/agv-task-portal/).
 
-## Open issues & next steps
-- verifying the dim, last design 
+## Goals
+- Chassis, sheet-metal cover and lift CAD ready for manufacturing
+- Wheel diameter chosen from alignment/traction calculations
+
+## Tasks
+- [Task 1: Chassis CAD](01_chassis-cad/)
+- [Task 2: Wheel alignment calculations to choose the diameter of the wheels used](02_wheel-diameter-calcs/)
+- [Task 3: Lifting mechanism CAD edits (Design for Manufacturing)](03_lift-cad-dfm/)
+- [Task 4: Sheet metal cover CAD](04_sheet-metal-cover/)
